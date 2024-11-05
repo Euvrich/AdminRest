@@ -1,0 +1,22 @@
+AdminRest/
+├── node_modules/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/               # Archivos estáticos como imágenes y estilos globales
+│   ├── components/           # Componentes reutilizables (vistas individuales o partes de vistas)
+│   ├── models/               # Funciones y estructuras de datos que representan tu lógica de datos (equivalente a los modelos en backend)
+│   ├── controllers/          # Funciones que manejan la lógica de la aplicación (acciones y llamadas a servicios)
+│   ├── views/                # Componentes de página o vistas completas que representan la UI final
+│   ├── services/             # Funciones para realizar llamadas a la API o cualquier interacción externa
+│   ├── App.jsx               # Componente principal de la aplicación
+│   ├── App.css               # Estilos de la aplicación
+│   ├── index.css             # Estilos globales
+│   └── main.jsx              # Punto de entrada de la aplicación
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
